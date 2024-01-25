@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista De Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://cdn.pixabay.com/photo/2017/05/15/23/48/survey-2316468_1280.png" alt="lista de tarefas" />
+            <h1>To-Do List | LM</h1>
+        </header>
+        <form>
+            <input type="text" id="nome-tarefa" required placeholder="Adicione uma nova tarefa..." />
+            <button type="submit" id="botao-add" title="Clique aqui para adicionar uma nova tarefa">+</button>
+        </form>
+        <ul>
+            <li>
+                <p class="check-tarefa"></p>
+                <button type="reset" class="botao-remove" title="Clique aqui para remover tarefa">x</button>
+            </li>
+        </ul>
+        <footer>
+            <p>
+                &copy; Desenvolvido por Lucas Menezes - 2024
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
